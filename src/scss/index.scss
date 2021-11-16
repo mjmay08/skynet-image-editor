@@ -1,0 +1,19 @@
+//@import 'colors.scss';
+@import 'global.scss';
+@import "~tui-image-editor/dist/tui-image-editor";
+
+
+/* Table modifications */
+.tabulator-row .tabulator-cell {
+  border-right: none;
+}
+
+/* End Table modifications */
+
+.loadPopover {
+  width: 600px;
+}
+
+.tui-image-editor-item svg {
+  vertical-align: baseline;
+}

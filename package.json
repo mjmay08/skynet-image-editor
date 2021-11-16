@@ -1,12 +1,12 @@
 {
-  "name": "Skynet Crypto Price Tracker",
+  "name": "skynet-image-editor",
   "version": "1.0.1",
-  "description": "A crypto price tracker hosted on skynet",
+  "description": "An image editor hosted on skynet",
   "author": "Mitchell May",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mjmay08/SkynetCryptoPriceTracker"
+    "url": "https://github.com/mjmay08/skynet-image-editor"
   },
   "scripts": {
     "clean": "rimraf dist/*",
