@@ -1,5 +1,7 @@
 import * as ImageEditor from 'tui-image-editor';
 import { SkynetClient } from "skynet-js";
+import { Buttons, Popover } from 'bootstrap';
+import { popper } from '@popperjs/core';
 import '../scss/index.scss';
 
 const instance = new ImageEditor(document.querySelector('#tui-image-editor'), {

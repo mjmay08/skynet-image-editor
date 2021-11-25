@@ -1,6 +1,6 @@
 {
-  "short_name": "Skynet Meme Generator",
-  "name": "Skynet Meme Generator",
+  "short_name": "Skynet Image Editor",
+  "name": "Skynet Image Editor",
   "icons": [
     {
       "src": "favicon.ico",
@@ -13,5 +13,5 @@
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "iconPath": "favicon.ico",
-  "skylink": "AQCz0CswdiNXYXp28wcBnrZP5c2pshsf58AD9o3IB6EI5w"
+  "skylink": "AQCEtWIE3ZEaGk6kbg_3Zn0egOj1wZRWufpLc89FVnVFcQ"
 }

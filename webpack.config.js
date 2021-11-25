@@ -1,3 +1,5 @@
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+
 module.exports = {
     entry: './src/js/main.js',
     output: {
@@ -33,5 +35,14 @@ module.exports = {
                 }
             }
         }]
-    }
+    },
+    plugins: [
+        new CopyWebpackPlugin({ 
+            patterns: [ 
+             { from: './src/favicon.ico' },
+             { from: './src/manifest.json' },
+             { from: './node_modules/jquery/dist/jquery.min.js' }
+            ]
+        })
+    ]
 }
