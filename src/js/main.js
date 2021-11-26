@@ -61,11 +61,6 @@ function loadFromSkynet(skylink) {
   var client = new SkynetClient();
   client.getFullDomainUrl(skylink).then((url) => {
     console.log("Url: " + url);
-    //instance.loadImageFromURL(url).then(result=>{
-    //  instance.ui.resizeEditor({
-    //      imageSize: {oldWidth: result.oldWidth, oldHeight: result.oldHeight, newWidth: result.newWidth, newHeight: result.newHeight},
-    //  });
-    //});
     fetch(url).then((response) => {
       response.blob().then((data) => {
         let metadata = {
@@ -122,7 +117,14 @@ function replaceDownloadButtonWithExportToSkynet() {
           </button>
           <button class='tui-image-editor-download-image-btn' id="exportToSkynet" style="color: #222;">
               Save to Skynet
-          </button>`
+          </button>
+          <button id="skynetDocs" style="">
+            <a href="https://siasky.net/docs" target="_blank"><img src="BuiltWithSkynet.png" style="height: 32px; margin-top: -3px; margin-left: -4px;"></a>
+          </button>
+          <button id="github" style="width: 40px; vertical-align: middle;">
+            <a href="https://github.com/mjmay08/skynet-image-editor" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+          </button>
+          `
   );
 }
 

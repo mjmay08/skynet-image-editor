@@ -41,7 +41,10 @@ module.exports = {
             patterns: [ 
              { from: './src/favicon.ico' },
              { from: './src/manifest.json' },
-             { from: './node_modules/jquery/dist/jquery.min.js' }
+             { from: './src/BuiltWithSkynet.png' },
+             { from: './node_modules/jquery/dist/jquery.min.js' },
+             { from: './node_modules/font-awesome/css/font-awesome.min.css' },
+             { from: './node_modules/font-awesome/fonts', to: 'fonts/' }
             ]
         })
     ]
